@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['R-walkway', 'curb', 'curve-walkway', 'road', 'walkway', 'walkway-edge']
+
+roboflow:
+  workspace: pathway1
+  project: my-first-project-cr1zj
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pathway1/my-first-project-cr1zj/dataset/3
